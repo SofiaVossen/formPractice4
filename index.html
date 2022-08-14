@@ -9,7 +9,6 @@
 </head>
 <!-- 
 Wir werden ein Anmeldeformular mit CSS erstellen. Das Formular besteht aus:
-
 Full name (required)
 Address
 Email
@@ -17,45 +16,41 @@ Phone number
 Password
 Terms of policy
 Submit-->
-<body>
-    <header>
-        <h1>Sign up now!</h1>
-        <p>fill in your data to sign up</p>
-    </header>
-    <form action="SignUpNow">
-        <p>1</p>
-        <h2>First Name & Adress</h2>
-        <div>
-            <label for="YourFullName">YourFullName</label><br>
-            <input type="text" id="YourFullName" name="YourFullName" required><br>
-            <label for="Adress">Adress</label><br>
-            <textarea id="Adress" cols="40" rows="3" name="Adress"></textarea>
-        </div>
-        <p>2</p>
-        <h2>E-mail & Phone</h2>
-        <div>
-            <label for="E-mailAdress">E-Mail Adress</label><br>
-            <input type="email" id="E-mailAdress" name="YourFullName" required><br>
-            <label for="PhoneNumber">Phone Number</label><br>
-            <input id="PhoneNumber" placeholder="+49..."></textarea> 
-        </div>
-        <p>3</p>
-        <h2>Passwords</h2>
-        <div>
-            <label for="Password">Password</label><br>
-            <input type="password" id="Password" name="Password" maxlength="10" placeholder="max 10 characters"><br>
-            <label for="Password">Repeat Password</label><br>
-            <input type="password" id="Password" name="Password" maxlength="10" placeholder="max 10 characters">
-        </div>
-        <div id="agreementbox">
-            <input type="checkbox" id="agreement" name="agreement">
-            <label for="agreement">I agree with terms and conditions</label><br>
-            <input id="submitbutton" type="submit" value="send data">
-        </div>
-    </form>
-
-
-
-
-</body>
+    <body>
+        <header>
+            <h1>Sign up now!</h1>
+            <p>fill in your data to sign up</p>
+        </header>
+        <form action="SignUpNow">
+            <p>1</p>
+            <h2> Name & Adress</h2>
+            <div>
+                <label for="YourFullName">Your Full Name</label><br>
+                <input type="text" id="YourFullName" name="YourFullName" required><br>
+                <label for="Adress">Adress</label><br>
+                <textarea id="Adress" cols="40" rows="3" name="Adress"></textarea>
+            </div>
+            <p>2</p>
+            <h2>E-mail & Phone</h2>
+            <div>
+                <label for="E-mailAdress">E-Mail Adress</label><br>
+                <input type="email" id="E-mailAdress" name="YourFullName" required><br>
+                <label for="PhoneNumber">Phone Number</label><br>
+                <input id="PhoneNumber" placeholder="+49..."></textarea> 
+            </div>
+            <p>3</p>
+            <h2>Password</h2>
+            <div>
+                <label for="Password">Password</label><br>
+                <input type="password" id="Password" name="Password" maxlength="10" placeholder="max 10 characters"><br>
+                <label for="Password">Repeat Password</label><br>
+                <input type="password" id="Password" name="Password" maxlength="10" placeholder="max 10 characters">
+            </div>
+            <div id="agreementbox">
+                <input type="checkbox" id="agreement" name="agreement">
+                <label for="agreement">I agree with terms and conditions</label><br>
+                <input id="submitbutton" type="submit" value="send data">
+            </div>
+        </form>
+    </body>
 </html>
